@@ -15,7 +15,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
         "UpdateSourceArgs": "./HKMPServer.zip",
-        "UpdateSourceTarget": "./serverfiles",
+        "UpdateSourceTarget": "./serverfiles/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
