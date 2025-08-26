@@ -7,7 +7,7 @@
         "UpdateSourceArgs": "Extremelyd1/HKMP",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
     },
     {
@@ -16,8 +16,8 @@
         "UpdateSource": "ExtractArchive",
         "UpdateSourceArgs": "./HKMPServer.zip",
         "UpdateSourceTarget": "./serverfiles/HKMPServer.zip",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     },
