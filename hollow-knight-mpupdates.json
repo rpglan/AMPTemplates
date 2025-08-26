@@ -11,11 +11,9 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Extracting Server",
+        "UpdateStageName": "",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./HKMPServer.zip",
-        "UpdateSourceTarget": "./",
+        "UpdateSource": "StartApplication",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
